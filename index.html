@@ -5,13 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Amani Konan | GitHub Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
     body {
       font-family: 'Inter', sans-serif;
       background-color: #f9f9f9;
@@ -20,26 +15,35 @@
     }
 
     .container {
-      max-width: 800px;
+      max-width: 850px;
       margin: 0 auto;
       background-color: #fff;
       border-radius: 16px;
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
       padding: 40px;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 3px solid #1a73e8;
     }
 
     h1 {
       font-size: 2.5rem;
       font-weight: 800;
       color: #1a73e8;
-      margin-bottom: 10px;
+      margin-bottom: 8px;
     }
 
     h2 {
-      font-size: 1.5rem;
-      font-weight: 600;
+      font-size: 1.2rem;
       color: #555;
-      margin-bottom: 30px;
+      margin-bottom: 25px;
     }
 
     p {
@@ -69,10 +73,25 @@
       text-decoration: underline;
     }
 
+    .social-icons {
+      margin-top: 15px;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      color: #1a73e8;
+      font-size: 1.4rem;
+      transition: color 0.2s;
+    }
+
+    .social-icons a:hover {
+      color: #0c47a1;
+    }
+
     .footer {
       margin-top: 40px;
       text-align: center;
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       color: #aaa;
     }
 
@@ -84,34 +103,34 @@
       h1 {
         font-size: 2rem;
       }
-
-      h2 {
-        font-size: 1.25rem;
-      }
     }
   </style>
 </head>
 <body>
   <div class="container">
+    <img src="profile.jpg" alt="Amani Konan" class="profile-img" />
     <h1>Amani Konan</h1>
-    <h2>My GitHub Portfolio</h2>
+    <h2>Data Scientist | PCDE Portfolio</h2>
 
-    <p>
-      Welcome to my portfolio site for the PCDE program. Here, you'll find links to my completed activities hosted via GitHub and GitHub Pages.
-    </p>
+    <p>Welcome to my GitHub Pages portfolio. Explore my latest activities and projects from the PCDE program.</p>
 
-    <h3>📁 Featured Projects</h3>
+    <h3> Projects</h3>
     <ul>
-      <li>
-        🔗 <a href="https://github.com/amanid/PCDE-Activity-9.1" target="_blank">PCDE-Activity 9.1 GitHub Repository</a>
-      </li>
-      <li>
-        🌐 <a href="https://amanid.github.io/PCDE-Activity-9.1/" target="_blank">PCDE-Activity 9.1 GitHub Pages Site</a>
-      </li>
+      <li>🔗 <a href="https://github.com/amanid/PCDE-Activity-9.1" target="_blank">PCDE-Activity 9.1 GitHub Repository</a></li>
+      <li>🌐 <a href="https://amanid.github.io/PCDE-Activity-9.1/" target="_blank">PCDE-Activity 9.1 GitHub Pages Site</a></li>
     </ul>
 
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/amanidieudonnekonan" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="mailto:amani_dieudonne@yahoo.fr" title="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+
     <div class="footer">
-      © 2025 Amani Konan — Built with 💙 and GitHub Pages
+      © 2025 Amani Konan — Built with GitHub and GitHub Pages
     </div>
   </div>
 </body>
